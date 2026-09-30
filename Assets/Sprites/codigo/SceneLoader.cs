@@ -13,7 +13,7 @@ public class SceneLoader : MonoBehaviour
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void awake()
+    void Awake()
     {
         if(Instance != null && Instance != this)
         {
